@@ -1,0 +1,6 @@
+.bg-kitchen {
+    background-image: url('../assets/fondo.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
