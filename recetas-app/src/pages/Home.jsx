@@ -7,7 +7,7 @@ function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-kitchen">
       <div className="bg-black bg-opacity-60 p-10 rounded-lg shadow-lg backdrop-filter backdrop-blur-lg text-white">
         <h1 className="text-5xl font-extrabold mb-8 text-center text-white drop-shadow-md">
-          Bienvenido a la Aplicación de Recetas
+          Bienvenido Recetapp
         </h1>
         <nav>
           <ul className="space-y-6">

@@ -33,9 +33,9 @@ const RecipeSearch = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center buscar">
+    <div className="min-h-screen flex flex-col items-center justify-center buscar pt-12">
     <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h1 className="text-3xl font-bold mb-6 text-center text-gray-700">Buscar Recetas</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-gray-700">¿Con que quieres cocinar?</h1>
       <form onSubmit={searchRecipes} className="mb-6">
         <input
           type="text"
@@ -68,9 +68,9 @@ const RecipeSearch = () => {
                 href={recipe.recipe.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline"
+                className="text-white bg-black bg-opacity-70 hover:bg-blue-700"
               >
-                Ver receta completa
+                Haz click aqui para ver la receta completa
               </a>
             </li>
           ))}
